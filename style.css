@@ -267,7 +267,7 @@ a:has(.project-sec){
 .proj-cta.disabled{
   pointer-events: none;
   cursor: default;
-  color: var(--white-05);
+  color: var(--white-06);
 }
 
 .connect-container{
