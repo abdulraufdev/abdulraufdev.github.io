@@ -1,83 +1,76 @@
-/*Contact.html*/
-input {
-    background-color: var(--white-07);
-    width: 40ch;
-    border: none;
-    color: var(--black);
-    font-family: var(--primary-font);
-    font-weight: 700;
-    font-size: 14px;
-    outline: none;
-    padding: 14px 40px 14px 14px;
-    margin: 4px 12px;
-    transition: all 0.4s ease;
-  }
-  input::placeholder {
-    font-weight: 700;
-    font-size: 14px;
-    text-transform: uppercase;
-  }
-  input:focus {
-    background-color: var(--white-06);
-  }
-  .submit-cta {
+.contact-sec{
+  display: grid;
+  grid-template-areas:
+    'email-box email-box linkedin-box linkedin-box'
+    'email-box email-box linkedin-box linkedin-box'
+    'github-box github-box linkedin-box linkedin-box'
+    'github-box github-box linkedin-box linkedin-box';
+    gap: 1rem;
+    min-height: 300px;
+  >div{
     display: flex;
     align-items: center;
-    margin-top: 2rem;
-  }
-  .submit-cta span {
-    display: inline-block;
-    height: 4px;
-    width: 2em;
-    color: var(--black);
-    background-color: var(--black);
-    transition:  width 0.4s ease;
-  }
-  .submit-cta:hover span,
-  .submit-cta:active span {
-    width: 0.4em;
-  }
-  input[type="submit"] {
-    width: auto;
-    padding: 0;
-    background-color: transparent;
-    color: var(--black);
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
-    font-family: var(--primary-font);
-    font-weight: 600;
-  }
-  .wrapper1 {
-    height: 100vh;
-    margin: auto;
-    /* padding: 0px 12rem; */
-    display: flex;
     justify-content: center;
-    align-items: center;
-  }
-  .devinfo1 {
-    width: 100%;
-    display: flex;
-    gap: 3rem;
-  }
-  .wrapper2 {
-    width: auto;
-  }
-  h1.contact {
+    flex-direction: column;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid var(--white-08);
+    background-color: var(--white-09);
     color: var(--black);
-    width: 100%;
-    font-size: 3.5rem;
-    line-height: 100%;
-    font-family: var(--primary-font);
-    -webkit-user-select: none;
-    user-select: none;
+    align-self: stretch;
+    >h2{
+      margin-top: 1rem;
+    }
+    &:hover{
+      background-color: var(--white-08);
+      transition: background-color 0.3s ease-in-out;
+    }
+
   }
-  
-  p.contact-p {
-    color: var(--black);
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 160%;
+}
+
+.email-box{
+  grid-area: email-box;
+  >span:hover{
+    opacity: 0.8;
   }
-  
+}
+.linkedin-box{
+  grid-area: linkedin-box;
+}
+.github-box{
+  grid-area: github-box;
+}
+
+.contact-h1 {
+  color: var(--black);
+  width: 100%;
+  font-size: 3.5rem;
+  line-height: 100%;
+  font-family: var(--primary-font);
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.square-cta{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 4px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 1rem;
+  border: 1px solid var(--white-08);
+}
+
+.sm-links{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}

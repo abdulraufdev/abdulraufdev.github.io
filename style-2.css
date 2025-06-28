@@ -1,18 +1,8 @@
-
-.container {
-  color: var(--black);
-  max-width: 56vw;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  margin: 20vh 0;
-  display: grid;
-  row-gap: 4rem;
-}
 .infocontainer {
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
+  margin-bottom: 10px;
 }
 
 h1.proj-h1{

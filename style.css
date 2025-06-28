@@ -87,6 +87,18 @@ img {
   pointer-events: none;
 }
 
+
+.container {
+  color: var(--black);
+  max-width: 56vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 20vh 0;
+  display: grid;
+  row-gap: 4rem;
+}
+
 .tab-bar {
   position: fixed;
   z-index: 100;
@@ -125,8 +137,8 @@ img {
 }
 
 .faded-p {
-  color: var(--white-06);
-  line-height: 1.5;
+  color: var(--white-05);
+  line-height: 1.6;
 }
 
 .cta {
@@ -152,7 +164,7 @@ img {
 
 .highlight {
   color: var(--black);
-  text-decoration: underline;
+  border-bottom: 1px dashed var(--black);
 }
 
 .section {
@@ -181,7 +193,8 @@ a:has(.project-sec) {
   gap: 8px;
   font-size: 14px;
   font-weight: 500;
-  margin-top: 12px;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .tag {
@@ -226,7 +239,7 @@ a:has(.project-sec) {
   gap: 8px;
 
   &:hover {
-    color: var(--white-04);
+    color: var(--white-05);
   }
 }
 
