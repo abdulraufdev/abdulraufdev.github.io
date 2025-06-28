@@ -8,163 +8,141 @@
     <meta name="description"
         content="Hey there, it's Abdul Rauf; a Full-Stack developer. Let's have a look at my Portfolio!">
     <title>Abdul Rauf - Full-Stack Developer</title>
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style-2.css">
-    <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="icon" type="image/favicon" href="https://ik.imagekit.io/abduledits5/myavi.jpeg">
 </head>
 
 <body>
-    <div class="menu-wrapper">
-
-        <div class="menu-icon">
-            <span class="menu-icon__line menu-icon__line-up"></span>
-            <span class="menu-icon__line menu-icon__line-down"></span>
-        </div>
-        
-    </div>
-    <div class="nav-wrapper">
-        <div class="nav-content">
-            <ul class="nav__list">
-                <li class="nav__list-item"><a style="transition-delay: 0.6s;" href="/my-projects">My Work</a></li>
-                <li class="nav__list-item"><a style="transition-delay: 0.7s;" href="/about">About</a></li>
-                <li class="nav__list-item"><a style="transition-delay: 0.8s;" href="#contact--sec">Contact Me</a></li>
-                <li class="nav__list-item"><a class="resume-cta" style="transition-delay: 0.9s;"
-                        target="_blank">Resume<svg class="menu-resume-svg" viewBox="0 0 12 11" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M9.60854 8.18416L10.1176 3.6023L1.43727 10.5466L0.562693 9.45338L9.24306 2.50909L4.66121 1.99999L4.81581 0.608555L11.0773 1.28L11.77 1.36719L11.6957 2.07729L11 8.33876L9.60854 8.18416Z"
-                                fill="currentColor" />
-                        </svg></a></li>
-            </ul>
-        </div>
-    </div>
-    <header class="title-bar">
-        <div class="head-email-box">
-            <a href="mailto:abdulrauf.design@outlook.com">
-                <strong>Abdul Rauf</strong>
-                <strong id="head-email">abdulrauf.design@outlook.com</strong>
-            </a>
-        </div>
-        <span style="display: flex; gap: 2rem;">
-            <a href="/about">About</a>
-            <a href="/my-projects">My Work</a>
-            <a href="#contact--sec">Contact</a>
-            <a target="_blank" class="resume-cta">Resume <i style="position: relative; bottom: -3px;" class="ph-bold ph-arrow-up-right"></i></a>
-        </span>
-        <div class="theme-cta"></div>
-    </header>
+    <span class="tab-bar">
+        <a href="/" style="background-color: var(--white-08);">Home</a>
+        <a href="/about">About</a>
+        <a href="/my-projects">Projects</a>
+        <a href="#contact--sec">Contact</a>
+    </span>
     <!-- hero sec -->
-    <div class="container section home">
-        <div class="infocontainer">
-            <div class="devinfo">
-                <h1 class="name"><b style="color: var(--white-06);">Abdul Rauf</b><br><span style="color: var(--black);">Full-Stack Developer</span></h1>
-                <p class="p-text-anim">Hello! I am a dedicated Full-Stack Developer with a strong passion for creating seamless and engaging digital experiences for both web and mobile.</p>
-                <span class="smlinks">
-                        <a href="https://www.instagram.com/abdulrauf.design"><i class="ph-bold ph-instagram-logo"></i></a>
-                        <a href="https://github.com/abdulraufdev"><i class="ph-bold ph-github-logo"></i></a>
-                        <a href="https://www.linkedin.com/in/abdulraufdesign"><i class="ph-bold ph-linkedin-logo"></i></a>
-                </span>
+    <div class="container">
+        <div class="section home">
+            <div class="infocontainer">
+                <h1 class="name"><span style="color: var(--white-06);">Abdul Rauf</span><br><span
+                        style="color: var(--black);">Full-Stack Developer</span></h1>
+                <div class="devinfo">
+                    <p>Hello! I am a dedicated Full-Stack Developer with a strong passion for
+                        creating seamless and engaging digital experiences for both web and mobile.</p>
+                    <span class="tags">
+                        <span class="tag">Frontend</span>
+                        <span class="tag">Backend</span>
+                        <span class="tag">Database</span>
+                        <span class="tag">MERN</span>
+                    </span>
+                </div>
+                <div style="display: flex; gap: 20px;">
+                    <a href="https://github.com/abdulraufdev" class="cta primary-cta">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"
+                            fill="currentColor">
+                            <path
+                                d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z">
+                            </path>
+                        </svg>GitHub</a>
+                    <a href="https://www.linkedin.com/in/abdulraufdesign" class="cta primary-cta">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#1357af" viewBox="0 0 16 16">
+  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+</svg>LinkedIn</a>
+                    <a href="https://www.instagram.com/abdulrauf.design" class="cta primary-cta">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"  viewBox="0 0 16 16">
+                            <defs>
+    <linearGradient id="Gradient2" x1="1" x2="0" y1="0" y2="0">
+      <stop offset="0%" stop-color="#833ab4" />
+      <stop offset="50%" stop-color="#fd1d1d"  />
+      <stop offset="100%" stop-color="#fcb045" />
+    </linearGradient>
+  </defs>
+  <path fill="url(#Gradient2)" d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+</svg>
+                        Instagram</a>
+                    <a href="https://drive.google.com/file/d/1A_znxOHnvtwgOfatuyjX_jemfm-6Qh5-/view" class="cta primary-cta">📄Resume</a>
+                </div>
             </div>
-        </div>
 
-    </div>
-    <!-- project sec -->
-    <main class=" proj-wrapper">
-        <div id="proj--sec">
-            <h1 class="proj-h1">Selected Work</h1>
-            <!-- <a href="/my-projects" class="proj-redirect"><span>see all</span></a> -->
         </div>
-        <div class="project-sec">
-             <section class=" projcontainer project-sec-12" >
-                <h2 class="proj-h2">InvoSync</h2>
-                <div>
-                    <p class="faded-p">B2B Catalogue management system.&nbsp;<b>Currently under development.</b></p>
-                    <div class="tags">
-                        <label class="tag">React.js</label>
-                        <label class="tag">Express.js</label>
-                        <label class="tag">Node.js</label>
-                        <label class="tag">SQL Server</label>
-                    </div>
-                </div>
-                <a href="" target="_blank" class="proj-cta disabled"><i class="ph-bold ph-github-logo"></i>GitHub<i class="ph-bold ph-arrow-up-right"></i></a>
-        </section>
-                <section class=" projcontainer project-sec-11" >
-                    <h2 class="proj-h2">FinNote</h2>
-                    <div>
-                        <p class="faded-p">Expenses and budget tracking app.&nbsp;<b>Currently under development.</b></p>
-                        <div class="tags">
-                            <label class="tag">React Native</label>
-                            <label class="tag">Expo</label>
-                            <label class="tag">Typescript</label>
-                            <label class="tag">SQLite</label>
-                        </div>
-                    </div>
-                    <a href="" target="_blank" class="proj-cta disabled"><i class="ph-bold ph-github-logo"></i>GitHub<i class="ph-bold ph-arrow-up-right"></i></a>
-            </section>
-                <section class=" projcontainer project-sec-10" >
-                    <h2 class="proj-h2">Ascend LMS</h2>
-                    <div>
-                        <p class="faded-p">Online learning management system based on SPA.</p>
-                        <div class="tags">
-                            <label class="tag">JavaScript</label>
-                            <label class="tag">Vue.js</label>
-                            <label class="tag">Pinia</label>
-                            <label class="tag">JSON Server</label>
-                        </div>
-                    </div>
-                    <a href="https://github.com/abdulraufdev/ascendlms" target="_blank" class="proj-cta"><i class="ph-bold ph-github-logo"></i>GitHub<i class="ph-bold ph-arrow-up-right"></i></a>
+        <!-- project sec -->
+        <main class=" proj-wrapper">
+            <div id="proj--sec">
+                <h1 class="proj-h1">Selected Work</h1>
+                <!-- <a href="/my-projects" class="proj-redirect"><span>see all</span></a> -->
+            </div>
+            <div class="project-sec">
+                <section class=" projcontainer project-sec-12">
+                    <h2 class="proj-h2">InvoSync</h2>
+                    <p class="faded-p">A B2B Catalogue management system built using <span
+                            class="highlight">React.js</span>,
+                        <span class="highlight">Express.js</span>, <span class="highlight">Node.js</span> and <span
+                            class="highlight">SQL Server</span>.&nbsp;<b>Currently under development.</b>
+                    </p>
+                    <a href="" target="_blank" class="proj-cta disabled">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"
+                            fill="currentColor">
+                            <path
+                                d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z">
+                            </path>
+                        </svg>
+                        GitHub
+                    </a>
                 </section>
-                <section class=" projcontainer project-sec-9" >
+                <section class=" projcontainer project-sec-11">
+                    <h2 class="proj-h2">FinNote</h2>
+                    <p class="faded-p">Expenses and budget tracking app built using <span class="highlight">React
+                            Naive</span>,
+                        <span class="highlight">Expo</span>, <span class="highlight">Typescript</span> and <span
+                            class="highlight">SQLite</span>.
+                    </p>
+                    <a href="" target="_blank" class="proj-cta disabled">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"
+                            fill="currentColor">
+                            <path
+                                d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z">
+                            </path>
+                        </svg>
+                        GitHub
+                    </a>
+                </section>
+                <section class=" projcontainer project-sec-10">
+                    <h2 class="proj-h2">Ascend LMS</h2>
+                    <p class="faded-p">Online learning management system built using <span
+                            class="highlight">Vue.js</span>,
+                        <span class="highlight">Pinia</span> and <span class="highlight">REST API</span>.
+                    </p>
+                    <a href="https://github.com/abdulraufdev/ascendlms" target="_blank" class="proj-cta">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"
+                            fill="currentColor">
+                            <path
+                                d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z">
+                            </path>
+                        </svg>
+                        GitHub
+                    </a>
+                </section>
+                <section class=" projcontainer project-sec-9">
                     <h2 class="proj-h2">Math Trove</h2>
-                    <div>
-                      <p class="faded-p">A huge math library which contains from basic to advanced mathematical formulas.</p>
-                        <div class="tags">
-                            <label class="tag">JavaScript</label>
-                            <label class="tag">React.js</label>
-                        </div>
-                    </div>
-                    <a href="https://github.com/mathtrove/mathtrove.github.io" target="_blank" class="proj-cta"><i class="ph-bold ph-github-logo"></i>GitHub<i class="ph-bold ph-arrow-up-right"></i></a>
-            </section>
-            <section class="projcontainer" style="justify-content: center; align-items: center;">
-                <a href="/my-projects" class="proj-cta" >See more projects<i class="ph-bold ph-arrow-up-right"></i></a>
-            </section>
-        </div>
-        
-    </main>
-    <div class="contact-sec" id="contact--sec">
-        <div class="contact-head">
-            <strong>Contact me</strong>
-        </div>
-        <div style="display:flex; flex-direction: column; gap: 24px;">
-            <div>
-                <p class="faded-p"><i class="ph ph-envelope-simple"></i>Email</p>
-                <a href="mailto:abdulrauf.design@outlook.com" class="contact-link">abdulrauf.design@outlook.com</a>
+                    <p class="faded-p">A huge math library which contains from basic to advanced mathematical
+                        formulas. Built using <span class="highlight">React.js</span></p>
+                    <a href="https://github.com/mathtrove/mathtrove.github.io" target="_blank" class="proj-cta">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"
+                            fill="currentColor">
+                            <path
+                                d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z">
+                            </path>
+                        </svg>
+                        GitHub</a>
+                </section>
+                <section class="proj-cta proj-redirect">
+                    <a href="/my-projects" class="proj-cta">See more projects</a>
+                </section>
             </div>
-            <div>
-                <p class="faded-p"><i class="ph ph-phone"></i>Phone</p>
-                <a href="" class="contact-link">+92 328 2249014</a>
-            </div>
-            <button class="connect-cta">
-                <strong class="connect-txt">Lorem ipsum dolor</strong>
-                <div class="connect-icons">
-                    <a id="twitter" class="connect-icon" href="https://www.twitter.com/abdulraufdesign"
-                        target="_blank"><i class="ph-bold ph-x-logo"></i>
-                    </a>
-                    <a id="linkedin" class="connect-icon" href="https://www.linkedin.com/in/abdulraufdesign"
-                        target="_blank"><i class="ph-fill ph-linkedin-logo"></i>
-                    </a>
-                    <a id="github" class="connect-icon" href="https://github.com/abdulraufdev" target="_blank"><i class="ph-fill ph-github-logo"></i>
-                    </a>
-                </div>
-            </button>
-        </div>
+
+        </main>
     </div>
-    <footer class="connect-container">
-        <div class="txt-blck" style="color: #666666;">© Abdul Rauf. All Rights Reserved.</div>
-    </footer>
     <script src="media.js"></script>
     <script src="script.js"></script>
 </body>

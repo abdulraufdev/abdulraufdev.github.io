@@ -1,13 +1,18 @@
 
 .container {
-  background-color: var(--white);
   color: var(--black);
+  max-width: 56vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 20vh 0;
+  display: grid;
+  row-gap: 4rem;
 }
-.devinfo {
+.infocontainer {
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
-  background-color: var(--white);
 }
 
 h1.abt-h1,
@@ -15,31 +20,7 @@ h1.proj-h1{
   color: var(--black);
   font-size: 32px;
   line-height: 1.2;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: var(--letter-spacing);
   user-select: none;
-}
-.head-email-box {
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-  width: 24ch;
-}
-.head-email-box > a {
-  position: relative;
-  display: grid;
-}
-#head-email {
-  position: absolute;
-  top: 100%;
-  text-decoration: underline;
-}
-.head-email-box:hover > a {
-  transform: translateY(-100%);
-}
-
-.name + p{
-  color: var(--white-05);
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 1.5;
-  width: 40ch;
 }

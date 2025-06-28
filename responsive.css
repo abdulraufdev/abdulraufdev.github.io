@@ -1,59 +1,15 @@
 @media screen and (width < 1260px) {
-    .section, .proj-wrapper, .contact-sec, .title-bar{
-        padding: 2rem 4rem ;
-    }
-    .connect-container{
-        padding: 1rem 4rem;
+    .container{
+        max-width: 72vw;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .name{
-        font-size: calc(42px + 2vw);
-    }
-    .title-bar > span{
-        display: none !important;
-    }
-    .title-bar{
-        justify-content: stretch;
-    }
-    .title-bar {
-        strong{
-            width: auto;
-        }
-    }
-    .name{
         font-size: 7.4vw;
-    }
-    .head-email-box{
-        width: auto;
-        clip-path: none;
-    }
-    .head-email-box:hover a{
-        transform: none;
-    }
-    #head-email{
-        display: none;
-    }
-    .projcontainer .faded-p {
-        width: auto;
     }
 }
 @media screen and (max-width: 900px) {
-    .section, .proj-wrapper, .contact-sec, .title-bar{
-        padding: 2rem;
-    }
-    .faded-p, .name + p{
-        width: auto;
-    }
-    .connect-container{
-        padding: 1rem 2rem;
-    }
-    .contact-sec{
-        flex-direction: column;
-        align-items: stretch;
-        gap: 3rem;
-    }
     
     .tag{
         font-size: 12px;
@@ -64,33 +20,22 @@
 
 }
 @media screen and (max-width: 720px) {
-    .project-sec{
-        grid-template-columns: 1fr;
+    .container{
+        max-width: 100%;
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    .tab-bar{
+        bottom: 1rem;
+        top: auto;
+        gap:0
     }
 }
 @media screen and (max-width: 530px) {
     .name{
         font-size: 28px;
     }
-    .devinfo{
+    .infocontainer{
         gap: 1.4rem;
     }
-    .name + p, .faded-p{
-        font-size: 16px;
-    }
-    .menu-wrapper{
-        right: 20px;
-    }
-    .contact-head strong {
-        font-size: 2rem;
-    }
-    .contact-sec .faded-p{
-        font-size: 1.25rem;
-    }
 }
-@media screen and (max-width: 430px) {
-    .cta{
-        width: 100%;
-    }
-}
-
