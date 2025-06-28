@@ -37,7 +37,7 @@
 }
 @media screen and (max-width: 530px) {
     .name{
-        font-size: 48px;
+        font-size: 42px;
     }
     .infocontainer{
         gap: 1.4rem;
