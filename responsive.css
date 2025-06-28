@@ -17,6 +17,9 @@
     .tags{
         flex-wrap: wrap;
     }
+    .cta{
+        font-size: 16px;
+    }
 
 }
 @media screen and (max-width: 720px) {
@@ -24,6 +27,7 @@
         max-width: 100%;
         padding-left: 22px;
         padding-right: 22px;
+        margin-top: 10vh;
     }
     .tab-bar{
         bottom: 1rem;
@@ -33,7 +37,7 @@
 }
 @media screen and (max-width: 530px) {
     .name{
-        font-size: 28px;
+        font-size: 42px;
     }
     .infocontainer{
         gap: 1.4rem;
