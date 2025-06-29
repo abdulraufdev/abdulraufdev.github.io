@@ -78,6 +78,10 @@ a {
   transition: 0.3s;
 }
 
+p{
+  line-height: 1.5;
+}
+
 button {
   font-family: var(--primary-font);
   outline: none;
@@ -165,6 +169,7 @@ img {
 .highlight {
   color: var(--black);
   border-bottom: 1px dashed var(--black);
+  display: inline-block;
 }
 
 .section {
